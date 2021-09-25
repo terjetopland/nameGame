@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/terje/source/repos/nameGame/main.c
+stdio.h
+-
+myFirstFunctions.h
+C:/Users/terje/source/repos/nameGame/myFirstFunctions.h
+
+C:/Users/terje/source/repos/nameGame/myFirstFunctions.c
+myFirstFunctions.h
+C:/Users/terje/source/repos/nameGame/myFirstFunctions.h
+stdio.h
+-
+string.h
+-
+
+C:/Users/terje/source/repos/nameGame/myFirstFunctions.h
+
