@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <string.h>
 
+//Function that's check if the first name entered is equal to second name entered
 char check_name() {
     //Made 2 strings that can contain >51 char.
     char first_in[50], second_in[50];
